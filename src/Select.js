@@ -877,7 +877,7 @@ class Select extends React.Component {
 			'aria-label': this.props['aria-label'],
 			'aria-labelledby': this.props['aria-labelledby'],
 			'aria-owns': ariaOwns,
-			autocomplete: "new-password",
+			autoComplete: "new-password",
 			className: className,
 			onBlur: this.handleInputBlur,
 			onChange: this.handleInputChange,
